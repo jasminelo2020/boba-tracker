@@ -1,11 +1,25 @@
 import streamlit as st
 import numpy as np
+from streamlit_gsheets import GSheetsConnection
 # import matplotlib.pyplot as plt
 
 st.write("""
 # Jasmine's Boba Tracker
 2024 boba tracker
 """)
+
+# Create a connection object.
+conn = st.connection("gsheets", type=GSheetsConnection)
+
+# df = conn.read()
+df = conn.read(
+    worksheet="boba",
+    ttl="10m",
+    usecols=[0, 1, 2, 3],
+    nrows=None,
+)
+
+st.write(df)
 
 # enter_boba = st.text_input(label='Enter drink name:', placeholder='format: base with topping 1 and topping 2 (drink name)')
 
@@ -30,3 +44,4 @@ with st.form('boba_tracker', clear_on_submit=True):
     
     if submit_button:
         st.write('new boba recorded!')
+        
