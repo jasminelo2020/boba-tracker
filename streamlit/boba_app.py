@@ -29,4 +29,4 @@ with st.form('boba_tracker'):
 #     submit_button = st.form_submit_button('submit')
     
 if st.form_submit_button:
-    st.write('new boba recorded!)
+    st.write('new boba recorded!')
