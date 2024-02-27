@@ -58,7 +58,7 @@ st.write("""
 # csv_file_path = os.path.join(parent_dir, "data", "boba.csv")
 # df = pd.read_csv(csv_file_path)
 
-df = pd.read_csv('boba.csv')
+df = pd.read_csv('data/boba.csv')
 
 st.write(df)
 # st.dataframe(df)
