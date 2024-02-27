@@ -12,7 +12,7 @@ st.write("""
 with st.form('boba_tracker'):
     st.header('add a new drink!')
 
-    month, date, location, drink = st.columns(4)
+    month, date, location, drink = st.columns([0.2, 0.1, 0.2, 0.5])
 
     with month:
         a = st.text_input(label='month:', placeholder='eg: january')
@@ -26,7 +26,7 @@ with st.form('boba_tracker'):
 
 #     drink_rating, topping_rating = st.columns(2)
     
-#     submit_button = st.form_submit_button('submit')
+    submit_button = st.form_submit_button('submit')
     
 if st.form_submit_button:
     st.write('new boba recorded!')
