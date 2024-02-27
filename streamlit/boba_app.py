@@ -22,7 +22,7 @@ with st.form('boba_tracker', clear_on_submit=True):
     with location:
         a = st.text_input(label='location:', placeholder='eg: yun')
     with drink:
-        enter_boba = st.text_input(label='drink (format: base with topping 1 and topping 2 (drink name); omitting any that don\'t exist):', 
+        enter_boba = st.text_input(label='drink (format: base with topping 1 and topping 2 (drink name); omitting anything that doesn\'t exist):', 
                                    placeholder='eg: jasmine milk tea with boba (snow jasmine)')
 
 #     drink_rating, topping_rating = st.columns(2)
