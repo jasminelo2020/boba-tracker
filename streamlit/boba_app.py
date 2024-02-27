@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
-from streamlit_gsheets import GSheetsConnection
+# from streamlit_gsheets import GSheetsConnection
+import os
 # import matplotlib.pyplot as plt
 
 st.write("""
@@ -8,19 +9,19 @@ st.write("""
 2024 boba tracker
 """)
 
-# Create a connection object.
-conn = st.connection("gsheets", type=GSheetsConnection)
+# # Create a connection object.
+# conn = st.connection("gsheets", type=GSheetsConnection)
 
-# df = conn.read()
-df = conn.read(
-    worksheet="boba",
-    ttl="10m",
-    usecols=[0, 1, 2, 3],
-    nrows=None,
-)
+# # df = conn.read()
+# df = conn.read(
+#     worksheet="boba",
+#     ttl="10m",
+#     usecols=[0, 1, 2, 3],
+#     nrows=None,
+# )
 
-# st.write(df)
-st.dataframe(df)
+# # st.write(df)
+# st.dataframe(df)
 
 # enter_boba = st.text_input(label='Enter drink name:', placeholder='format: base with topping 1 and topping 2 (drink name)')
 
@@ -45,4 +46,15 @@ with st.form('boba_tracker', clear_on_submit=True):
     
     if submit_button:
         st.write('new boba recorded!')
+
         
+st.write("""
+## current 2024 boba consumption
+""")
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
+csv_file_path = os.path.join(parent_dir, "data", "boba.csv")
+df = pd.read_csv(csv_file_path)
+
+st.write(df)
