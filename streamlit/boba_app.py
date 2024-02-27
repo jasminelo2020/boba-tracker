@@ -17,16 +17,16 @@ with st.form('boba_tracker'):
     with month:
         a = st.text_input(label='month:', placeholder='eg: january')
     with date:
-        a = st.text_input(label='day of month:', placeholder='eg: 1')
+        a = st.text_input(label='date:', placeholder='eg: 1')
     with location:
         a = st.text_input(label='location:', placeholder='eg: yun')
     with drink:
-        enter_boba = st.text_input(label='drink (format: base with topping 1 and topping 2 (drink name)):', 
-                                   placeholder='eg: jasmine milk tea with boba and pudding (snow jasmine)')
+        enter_boba = st.text_input(label='drink (format: base with topping 1 and topping 2 (drink name); omitting any that don\'t exist):', 
+                                   placeholder='eg: jasmine milk tea with boba (snow jasmine)')
 
 #     drink_rating, topping_rating = st.columns(2)
     
     submit_button = st.form_submit_button('submit')
     
-if st.form_submit_button:
-    st.write('new boba recorded!')
+# if st.form_submit_button:
+#     st.write('new boba recorded!')
