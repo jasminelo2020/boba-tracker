@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
-from streamlit_gsheets import GSheetsConnection
+# from streamlit_gsheets import GSheetsConnection
+from st_gsheets_connection import GSheetsConnection
 # import matplotlib.pyplot as plt
 
 st.write("""
