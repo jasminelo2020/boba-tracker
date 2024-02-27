@@ -55,7 +55,10 @@ st.write("""
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
+print("Parent directory:", parent_dir)
+
 csv_file_path = os.path.join(parent_dir, "data", "boba.csv")
 df = pd.read_csv(csv_file_path)
 
-st.write(df)
+# st.write(df)
+st.dataframe(df)
