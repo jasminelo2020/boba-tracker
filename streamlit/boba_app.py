@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
-# from streamlit_gsheets import GSheetsConnection
-from st_gsheets_connection import GSheetsConnection
+from streamlit_gsheets import GSheetsConnection
 # import matplotlib.pyplot as plt
 
 st.write("""
@@ -20,7 +19,8 @@ df = conn.read(
     nrows=None,
 )
 
-st.write(df)
+# st.write(df)
+st.dataframe(df)
 
 # enter_boba = st.text_input(label='Enter drink name:', placeholder='format: base with topping 1 and topping 2 (drink name)')
 
