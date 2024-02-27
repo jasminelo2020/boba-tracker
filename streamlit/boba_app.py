@@ -53,12 +53,12 @@ st.write("""
 ## current 2024 boba consumption
 """)
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
-print("Parent directory:", parent_dir)
+# current_dir = os.path.dirname(os.path.abspath(__file__))
+# parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
+# csv_file_path = os.path.join(parent_dir, "data", "boba.csv")
+# df = pd.read_csv(csv_file_path)
 
-csv_file_path = os.path.join(parent_dir, "data", "boba.csv")
-df = pd.read_csv(csv_file_path)
+df = pd.read_csv('boba.csv')
 
 # st.write(df)
 st.dataframe(df)
