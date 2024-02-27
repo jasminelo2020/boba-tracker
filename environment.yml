@@ -28,3 +28,4 @@ dependencies:
   - ca-certificates
   - openssl
   - lxml==4.9.4 
+  - streamlit=1.31.1
