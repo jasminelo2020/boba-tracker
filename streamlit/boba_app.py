@@ -9,7 +9,7 @@ st.write("""
 
 # enter_boba = st.text_input(label='Enter drink name:', placeholder='format: base with topping 1 and topping 2 (drink name)')
 
-with st.form('boba_tracker'):
+with st.form('boba_tracker', clear_on_submit=True):
     st.header('add a new drink!')
 
     month, date, location, drink = st.columns([0.2, 0.1, 0.2, 0.5])
@@ -28,5 +28,5 @@ with st.form('boba_tracker'):
     
     submit_button = st.form_submit_button('submit')
     
-# if st.form_submit_button:
-#     st.write('new boba recorded!')
+    if submit_button:
+        st.write('new boba recorded!')
