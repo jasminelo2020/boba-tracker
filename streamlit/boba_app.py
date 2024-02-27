@@ -60,5 +60,5 @@ st.write("""
 
 df = pd.read_csv('boba.csv')
 
-# st.write(df)
-st.dataframe(df)
+st.write(df)
+# st.dataframe(df)
