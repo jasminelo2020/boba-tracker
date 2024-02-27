@@ -1,28 +1,12 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-# from streamlit_gsheets import GSheetsConnection
 import os
-# import matplotlib.pyplot as plt
 
 st.write("""
 # Jasmine's Boba Tracker
 2024 boba tracker
 """)
-
-# # Create a connection object.
-# conn = st.connection("gsheets", type=GSheetsConnection)
-
-# # df = conn.read()
-# df = conn.read(
-#     worksheet="boba",
-#     ttl="10m",
-#     usecols=[0, 1, 2, 3],
-#     nrows=None,
-# )
-
-# # st.write(df)
-# st.dataframe(df)
 
 # enter_boba = st.text_input(label='Enter drink name:', placeholder='format: base with topping 1 and topping 2 (drink name)')
 
@@ -55,5 +39,5 @@ st.write("""
 
 df = pd.read_csv('data/boba.csv')
 
-st.write(df)
+# st.write(df)
 st.dataframe(df)
