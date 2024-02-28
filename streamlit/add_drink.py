@@ -1,16 +1,16 @@
 import streamlit as st
-# import gspread
-# from oauth2client.service_account import ServiceAccountCredentials
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 def add_new_drink():
     # Use creds to create a client to interact with the Google Drive API
-#     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-#     json_path = 'credentials.json'
-#     creds = ServiceAccountCredentials.from_json_keyfile_name(json_path, scope)
-#     client = gspread.authorize(creds)
+    scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+    json_path = 'credentials.json'
+    creds = ServiceAccountCredentials.from_json_keyfile_name(json_path, scope)
+    client = gspread.authorize(creds)
 
-#     # Open the spreadsheet
-#     sheet = client.open("boba tracker").sheet1
+    # Open the spreadsheet
+    sheet = client.open("boba tracker").sheet1
 
     # Streamlit form to input data
     with st.form('boba_tracker', clear_on_submit=True):
@@ -34,5 +34,5 @@ def add_new_drink():
 
         if submitted:
             # Insert data into the sheet
-#             sheet.append_row([name, score])
+            sheet.append_row([name, score])
             st.success('new boba recorded!')
