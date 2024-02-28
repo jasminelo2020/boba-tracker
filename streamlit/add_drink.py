@@ -2,26 +2,37 @@ import streamlit as st
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-# Use creds to create a client to interact with the Google Drive API
-scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-json_path = 'client_secret_29793288865-kjg9u0r7m42ntk6g2nh5l4615ak9o3h5.apps.googleusercontent.com.json'
-creds = ServiceAccountCredentials.from_json_keyfile_name(json_path, scope)
-client = gspread.authorize(creds)
+def add_new_drink():
+    # Use creds to create a client to interact with the Google Drive API
+    scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+    json_path = 'credentials.json'
+    creds = ServiceAccountCredentials.from_json_keyfile_name(json_path, scope)
+    client = gspread.authorize(creds)
 
-# Open the spreadsheet
-sheet = client.open("boba tracker").sheet1
+    # Open the spreadsheet
+    sheet = client.open("boba tracker").sheet1
 
-# Streamlit form to input data
-with st.form("my_form"):
-    st.write("Enter details:")
-    # Assuming you want to input a name and a score
-    name = st.text_input("Name")
-    score = st.text_input("Score")
-    submitted = st.form_submit_button("Submit")
-    if submitted:
-        # Insert data into the sheet
-        sheet.append_row([name, score])
-        st.success("Data submitted!")
+    # Streamlit form to input data
+    with st.form('boba_tracker', clear_on_submit=True):
+        st.header('add a new drink!')
 
-if __name__ == "__main__":
-    st.run()
+        month, date, location, drink = st.columns([0.2, 0.1, 0.2, 0.5])
+
+        with month:
+            a = st.text_input(label='month:', placeholder='eg: january')
+        with date:
+            a = st.text_input(label='date:', placeholder='eg: 1')
+        with location:
+            a = st.text_input(label='location:', placeholder='eg: yun')
+        with drink:
+            enter_boba = st.text_input(label='drink (format: base with topping 1 and topping 2 (drink name); omitting anything that doesn\'t exist):', 
+                                       placeholder='eg: jasmine milk tea with boba (snow jasmine)')
+
+    #     drink_rating, topping_rating = st.columns(2)
+
+        submitted = st.form_submit_button('submit')
+
+        if submitted:
+            # Insert data into the sheet
+            sheet.append_row([name, score])
+            st.success('new boba recorded!')
