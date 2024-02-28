@@ -1,8 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import os
-# from add_drink import add_new_drink
 
 st.write("""
 # Jasmine's Boba Tracker
@@ -32,8 +30,6 @@ with st.form('boba_tracker', clear_on_submit=True):
     
     if submit_button:
         st.write('new boba recorded!')
-
-# add_new_drink()
         
 st.write("""
 ## current 2024 boba consumption
