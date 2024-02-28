@@ -33,7 +33,7 @@ with st.form('boba_tracker', clear_on_submit=True):
     if submit_button:
         st.write('new boba recorded!')
 
-add_new_drink()
+# add_new_drink()
         
 st.write("""
 ## current 2024 boba consumption
