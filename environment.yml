@@ -1,0 +1,19 @@
+name: my_streamlit_app
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8  # Specify your Python version
+  - pip
+  - pandas>=1.2.0  # For data manipulation
+  - numpy>=1.19.0  # For numerical operations
+  - plotly>=4.0.0  # For interactive plotting
+  - matplotlib>=3.3.0  # For static plotting
+  - scikit-learn>=0.24.0  # For machine learning (optional)
+  - streamlit>=1.0.0  # Streamlit
+  - pip:
+      - streamlit>=1.0.0  # Ensure the latest Streamlit is installed via pip if needed
+      # Add any pip-only packages here
+      - plotly>=4.0.0  # Ensuring pip installation for the latest features
+      # Example of a pip-only package: pydeck for advanced mapping capabilities with Streamlit
+      - pydeck>=0.6.2
