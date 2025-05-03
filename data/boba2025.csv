@@ -26,7 +26,7 @@ february,6,gong cha,strawberry milk tea,"pudding, strawberry jam, cheese foam", 
 febraury,8,double crisp bakery,hong kong milk tea,,,andrew,$2.50,12oz,6/10
 febraury,8,chicha san chen,milk tea,boba,,andrew,$8.75,16oz,6/10
 february,9,molly tea,jasmine milk tea,, premium jasmine milk tea,"jaclyn, lisa, denis",$6.99,16oz,10/10
-february,10,moge tee,strawberry green tea slush,cheese foam,cheese foam strawberry,denis,$7.75,24oz,9.5/10
+february,10,moge tee,strawberry green tea slush,cheese foam,cheese foam strawberry,denis,$7.75,22oz,9.5/10
 febraury,13,hey tea,spirulina coconut milk,"coconut jelly, matcha cheese foam",cloud coconut blue,denis,$7.99,16oz,10/10
 febraury,13,hey tea,spirulina coconut milk,"coconut jelly, matcha cheese foam",cloud coconut blue,denis,$0,16oz,10/10
 febraury,14,chicha san chen,oolong tea latte,boba,,lloyd,$8.75,16oz,7/10
@@ -51,7 +51,7 @@ march,8,molly tea,jasmine milk tea,"whipped cream, candies pecans",snowy jasmine
 march,9,cafe 2by2,matcha latte,,,jasmine,$8.50,24oz,8.5/10
 march,9,cafe 2by2,pink guava gardenia milk tea,,,jasmine,$8.75,24oz,9.5/10
 march,9,debutea,camellia oolong tea,"osmanthus jelly, ruby pomelo",camellia ruby pomelo,jasmine,$8.50,16oz,9/10
-march,10,moge tee,mango slush,cheese foam,cheese foam mango," jasmine, denis",$7.75,24oz,9/10
+march,10,moge tee,mango slush,cheese foam,cheese foam mango," jasmine, denis",$7.75,22oz,9/10
 march,11,heytea,gongfu snow ice,"viennese style cloud, chopped pistachios",gongfu 0,"denis, jaclyn",$7.90,16oz,10/10
 march,15,happy lemon,strawberry smoothie,cream,strawberry shortcake,lloyd,$7.25,24oz,10/10
 march,17,yun,hojicha smoothie,"vanilla sky and butter cloud, cake",hojicha snow,lloyd,$7.25,24oz,8/10
@@ -67,3 +67,24 @@ march,24,sunright,mango smoothie,jasmine tea jelly,mango frostie,"sophia, mom",$
 march,24,sunright,strawberry slush,cheese foam,strawberry frostie,"sophia, mom",$6.80,240z,9/10
 march,28,molly tea,jasmine milk tea,,premium jasmine milk tea,"jaclyn, denis",$6.99,16oz,10/10
 march,30,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,"jaclyn, lisa",$6.49,16oz,10/10
+april,1,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,"lynn, maya, farizah",$6.99,16oz,9/10
+april,4,molly tea,jasmine milk tea, matcha cheese foam,premium jasmine matcha,"jaclyn, lisa, denis",$6.99,16oz,10/10
+april,6,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,"jaclyn, lisa, denis",$7.99,22oz,10/10
+april,8,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,"jaclyn, lisa, denis",$7.99,22oz,10/10
+april,9,moge tee,milk tea,coconut lychee jelly,,denis,$6.95,22oz,9/10 
+april,14,heytea,green grape slush,"cheese foam, crushed green grapes",cloud green grape,denis,$7.99,16oz,8/10 
+april,16,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,denis,$7.99,22oz,10/10
+april,17,playa bowl,strawberry banana coconut milk smoothie,,,denis,$8.95,20oz,8/10
+april,18,heytea,guava slushie,crushed green grapes,guava green grape,"denis, jaclyn, lisa",$7.99,16oz,10/10
+april,18,heytea,guava slushie,crushed green grapes,guava green grape,"denis, jaclyn, lisa",$7.99,16oz,10/10
+april,18,myori,milk tea,boba,,"denis, jaclyn, lisa",$6.99,22oz,6.5/10
+april,18,myori,milk tea,,,"denis, jaclyn, lisa",$6.99,22oz,6.5/10
+april,19,heytea,matcha jasmine latte,"matcha foam, matcha jelly",matcha jasmine latte,"jing, denis, jaclyn, lisa, austin, ethan",$7.99,16oz,9.5/10
+april,24,gongcha,strawberry milk tea,pudding,,denis,$7.50,22oz,7.5/10
+april,25,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,emily,$6.99,16oz,9.5/10
+april,25,molly tea,jasmine milk tea, matcha cheese foam,premium jasmine matcha,emily,$6.99,16oz,9/10
+april,25,kong sikh tong,hong kong milk tea,,,emily,$4.75,12oz,9/10
+april,26,heytea,guava slushie,crushed green grapes,guava green grape,emily,$7.99,16oz,10/10
+april,27,heytea,mango smoothie,cheese foam,cloud mango,andrew,$7.49,16oz,10/10
+april,27,molly tea,jasmine milk tea,,premium jasmine milk tea,andrew,$6.99,16oz,10/10
+april,28,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,"jaclyn, lisa, denis",$7.99,22oz,10/10
