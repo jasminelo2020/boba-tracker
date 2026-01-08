@@ -27,8 +27,8 @@ february,8,double crisp bakery,hong kong milk tea,,,andrew,$2.50,12oz,6/10
 february,8,chicha san chen,milk tea,boba,,andrew,$8.75,16oz,6/10
 february,9,molly tea,jasmine milk tea,, premium jasmine milk tea,"jaclyn, lisa, denis",$6.99,16oz,10/10
 february,10,moge tee,strawberry green tea slush,cheese foam,cheese foam strawberry,denis,$7.75,22oz,9.5/10
-february,13,hey tea,spirulina coconut milk,"coconut jelly, matcha cheese foam",cloud coconut blue,denis,$7.99,16oz,10/10
-february,13,hey tea,spirulina coconut milk,"coconut jelly, matcha cheese foam",cloud coconut blue,denis,$0,16oz,10/10
+february,13,heytea,spirulina coconut milk,"coconut jelly, matcha cheese foam",cloud coconut blue,denis,$7.99,16oz,10/10
+february,13,heytea,spirulina coconut milk,"coconut jelly, matcha cheese foam",cloud coconut blue,denis,$7.99,16oz,10/10
 february,14,chicha san chen,oolong tea latte,boba,,lloyd,$8.75,16oz,7/10
 february,15,heytea,jasmine matcha latte,matcha foam,,lloyd,$7.99,16oz,10/10
 february,15,heytea,mango coconut smoothie,"sago, coconut pudding, mango pudding",coconut mango boom,lloyd,$7.49,22oz,10/10
@@ -267,3 +267,83 @@ october,19,heytea,mango smoothie,cheese foam,cloud mango,wenchi,$7.49,16oz,10/10
 october,19,la la bakeshop,vietnamese coffee,pandan cream cloud,pandan cream coffee,wenchi,$7.25,12oz,9/10
 october,19,molly tea,tong mu lapsang black milk tea,"boba, hazelnut cheese foam, cocoa powder",tongmu lapsang bubble tea,wenchi,$7.49,16oz,8.5/10
 october,20,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,wenchi,$6.99,16oz,10/10
+october,29,heytea,blue spirulina coconut water,"coconut water jelly, matcha cloud",matcha cloud coconut aqua,,$7.99,16oz,9/10
+october,31,tomiz,white peach slush,,white peach fruit slush,denis,$5.75,20oz,7/10
+october,31,xing fu tang,black milk tea,brown sugar boba,boba milk tea,denis,$7.50,16oz,8/10
+november,1,jamba juice,"mango and pineapple, raspberry, orange and lime sherbert smoothie",,white gummi,"denis, jaclyn, lisa, jean-luc",$9.69,28oz,10/10 
+november,4,jamba juice,"mango and pineapple, raspberry, orange and lime sherbert smoothie",,white gummi,,$9.35,22oz,10/10
+november,4,molly tea,jasmine milk tea,"whipped cream, candied pecans",snowy jasmine,wenchi,$7.99,16oz,10/10
+november,5,moge tee,strawberry yakult,,strawberry yakult,wenchi,$7.25,22oz,9/10
+november,7,jamba juice,"mango and pineapple, raspberry, orange and lime sherbert smoothie",,white gummi,"denis, jaclyn, lisa, jean-luc",$8.99,28oz,10/10 
+november,7,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom, "denis, jaclyn, lisa, jean-luc",$6.99,16oz,10/10
+november,10,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom, jeff,$7.99,22oz,9.5/10
+november,11,heytea,jasmine green tea,cheese foam,cloud jasmine tea (original),jeff,$5.49,16oz,10/10
+november,11,heytea,blue spirulina coconut water,"coconut water jelly, matcha cloud",matcha cloud coconut aqua,jeff,$7.99,16oz,10/10
+november,12,mika’s direction,strawberry matcha latte,,strawberry matcha latte,jeff,$7.75,12oz,8.5/10
+november,13,matcha 108,banana hojicha latte,,banana hojicha latte,jeff,$7.25,12oz,8.5/10
+november,13,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,jeff,$6.99,16oz,8/10
+november,13,molly tea,jasmine milk tea,,premium jasmine milk tea,jeff,$6.99,16oz,9/10 
+november,14,brioche,yuzu matcha latte,,iced yuzu matcha latte,jeff,$8.00,16oz,8/10
+november,15,not as bitter,matcha latte,peach cream top,matcha peach cream top,jeff,$9.00,12oz,7/10
+november,15,matcha house,coconut matcha latte,pandan cold foam,pandan coconut matcha,jeff,$8.50,16oz,8.5/10
+november,16,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom, jeff,$6.99,16oz,10/10
+november,17,heytea lab,matcha snow ice,"viennese style cloud, chopped pistachios, coconut jelly",matcha 0,jeff,$7.90,16oz,10/10
+november,17,heytea lab,gongfu snow ice,"viennese style cloud, chopped pistachios, brown sugar boba",gongfu 0,jeff,$7.90,16oz,10/10
+november,18,kijitora,japanese black sugar hojicha latte,,iced hojicha latte with japanese black sugar,jeff,$7.25,16oz,10/10
+november,18,kijitora,chestnut matcha latte,,iced chestnut matcha latte,jeff,$7.75,16oz,10/10
+november,18,heytea,mango smoothie,cheese foam,cloud mango,jeff,$7.49,16oz,10/10
+november,19,verse,persimmon matcha latte,dried persimmon slice,persimmon matcha,jeff,$7.75,12oz,9/10
+november,21,heytea,jasmine green tea,cheese foam,cloud jasmine tea (original),"jaclyn, lisa, jean-luc, denis",$5.49,16oz,10/10
+november,22,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom, lloyd,$7.99,22oz,10/10
+november,23,maru,double espresso,"cream top, cacao powder",espresso con panna,lloyd,$5.75,4oz,8/10
+november,23,maru,double espresso with milk and cream,,iced breve macchiato,lloyd,$5.75,8oz,9/10
+november,23,omomo,ube smoothie,coffee jelly,ubae,lloyd,$6.95,22oz,9/10
+november,23,omomo,mango slush,"cheese foam, mango chunks",mango tornado,lloyd,$7.25,22oz,9/10
+november,23,omomo,matcha smoothie,creme brulee,omomo matcha,lloyd,$7.50,22oz,9.5/10
+november,23,omomo,thai tea,creme brulee,camo thai,lloyd,$6.25,22oz,9/10
+november,24,damo,hojicha tea,hojicha cream top,hojicha einspener,lloyd,$7.00,16oz,10/10
+november,24,damo,matcha latte,cream top,matcha einspener,lloyd,$7.75,16oz,9.5/10
+november,24,loop espresso club,chocolate hazelnut latte,,chocnut latte,lloyd,$7.50,16oz,7/10
+november,25,stagger,hojicha latte,hojicha cream top,double hojicha,lloyd,$7.00,12oz,10/10
+november,25,harucake,corn matcha latte,"corn cream top, corn ice cream",soo soo matcha,lloyd,$9.75,16oz,10/10
+november,25,harucake,corn latte,"corn cream top, corn ice cream",soo soo latte,lloyd,$8.00,12oz,10/10
+november,25,heytea,mango smoothie,cheese foam,cloud mango,lloyd,$7.49,16oz,10/10
+november,26,damo,strawberry milk,"strawberry cream top, strawberry chunks",strawberry einspener,lloyd,$7.25,16oz,10/10
+november,26,community goods,maple lavender matcha latte,,maple lavender matcha,lloyd,$8.50,12oz,10/10
+november,26,community goods,matcha latte,,matcha latte,lloyd,$8.00,12oz,9.5/10
+november,26,molly tea,jasmine milk tea,,premium jasmine milk tea,lloyd,$6.99,16oz,10/10 
+november,27,indigo cow,melon cream soda,"hokkaido soft serve, cherry",melon cream soda,lloyd,$7.00,16oz,8/10
+november,27,boba ave express,strawberry mango green tea,"strawberry chunks, mango chunks",strawberry & mango green tea,lloyd,$6.63,32oz,7/10
+november,30,omomo,matcha smoothie,creme brulee,omomo matcha,"mom, dad, andrew",$7.50,22oz,10/10
+december,1,cafe nagomi,strawberry matcha latte,"strawberry cream top, fried strawberry chunks",strawberry matcha einspanner,emily,$8.50,12oz,9/10
+december,1,urban ritual,hojicha latte,"oreos, creme brulee pudding",hojichas n cream,emily,$7.00,20oz,7/10
+december,1,teaspoon,jasmine milk tea,boba,creamy jasmine,jeff,$7.00,20oz,8.5/10
+december,2,kiss of matcha,matcha cream latte,,matcha cream latte,"jerry, jeff",$6.97,16oz,9/10
+december,4,heytea,green grape slush,"cheese foam, crushed green grapes",cloud green grape,,$7.99,16oz,9/10
+december,4,heytea,green grape slush,"cheese foam, crushed green grapes",cloud green grape,,$7.99,16oz,8/10
+december,10,heytea,jasmine tea,,jasmine tea,oren,$3.99,16oz,7/10
+december,11,heytea lab,gongfu snow ice,"viennese style cloud, chopped pistachios, brown sugar boba",gongfu 0,oren,$7.90,16oz,10/10
+december,12,debutea,guava jasmine tea slush,"crushed green grapes, fruit tea boba",le guava, oren,$8.50,16oz,9.5/10
+december,14,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,jaclyn,$6.99,16oz,10/10
+december,15,12 matcha,matcha latte,,matcha latte,"sophia, mom, dad",$7.00,12oz,9/10
+december,15,heytea lab,matcha snow ice,"viennese style cloud, chopped pistachios, coconut jelly",matcha 0,"sophia, mom, dad",$7.90,16oz,10/10
+december,16,planta queen,pineapple coconut matcha,,matcha colada,"sophia, mom, dad",$7.00,8oz,10/10
+december,16,salswee,butterfly pea tea coconut water,"coconut cream top, toasted coconut flakes",blue coconut,"sophia, mom, dad",$6.49,12oz,10/10
+december,17,solid state coffee,salted caramel latte,,salted caramel latte,"suraj, gabe",$6.50,12oz,9/10
+december,17,tiger sugar,brown sugar milk,"brown sugar boba, pearl, coffee jelly",,"sophia, mom, dad",$6.43,16oz,9/10
+december,17,naisnow,jasmine milk tea,"cheese foam, matcha powder",white snow,"sophia, mom, dad",$6.90,16oz,9/10
+december,17,kong sikh tong,hong kong milk tea,,,"sophia, mom, dad",$5.25,16oz,9/10
+december,18,heytea,matcha latte,"matcha cheese foam, matcha mochi, matcha cloud",triple supreme matcha latte,"sophia, mom, dad",$7.99,16oz,7/10
+december,19,kijitora,hojicha latte,,iced hojicha latte,"sophia, mom, dad",$6.50,16oz,10/10
+december,19,nem’s japandi bistro,peach matcha latte,peach puree,matcha oat latte with peach puree,"sophia, mom, dad",$10.00,12oz,6/10
+december,19,kijitora,strawberry matcha latte,,iced strawberry matcha latte,"sophia, mom, dad",$7.75,16oz,10/10
+december,20,nyonya,malaysian iced tea,,malaysian iced tea,"sophia, mom, dad",$6.95,12oz,7/10
+december,20,molly tea,jasmine apple milk tea,,jasmine apple milk tea,"sophia, mom, dad",$6.99,16oz,9.5/10
+december,21,heytea,mango coconut smoothie,"sago, coconut pudding, mango puree",coconut mango boom,jeff,$6.99,16oz,10/10
+december,24,hon’s wun-tun house,hot hong kong milk tea,,hong kong style milk tea,"mom, waipo",$4.95,12oz,10/10
+december,25,purple kow,pumpkin spice milk,"chocolate pudding, boba",pumpkin spice iced milk with tcho chocolate pudding & boba,"sophia, mom, jeff",$7.40,24oz,7/10
+december,26,heytea,salted cheese black milk tea,"tiramisu cloud, cocoa powder",tiramisu milk tea,jeff,$7.99,16oz,9.5/10
+december,30,harucake,banana matcha latte,"banana cream top, banana chip",banana matcha cloud,lloyd,$9.50,16oz,10/10
+december,30,harucake,corn hojicha latte,"corn cream top, corn ice cream",soo soo hojicha,lloyd,$8.75,16oz,10/10
+december,30,stagger,matcha latte,matcha cream top,double matcha,lloyd,$7.50,12oz,8.5/10
+december,30,rōk,matcha latte,matcha cream top,matcha duo,lloyd,$7.50,16oz,10/10
